@@ -1,4 +1,45 @@
 ﻿@page
 @model Cakekue_J94824.Pages.MenuModel
 @{
+    ViewData["Title"] = "Menu";
 }
+<h1>Menu</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                ProductName
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Price
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Product)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                @{
+                    var imagePath = @"images\" + item.ID + ".jpg";
+                }
+
+                <td>
+                    <img src="@imagePath" class="image-size">
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

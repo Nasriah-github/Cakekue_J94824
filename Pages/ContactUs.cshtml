@@ -1,0 +1,72 @@
+﻿@page
+@addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers
+@model Cakekue_J94824.Pages.ContactUsModel
+@{
+    ViewData["Title"] = "Contact";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <!--Reference to the Bing Maps SDK -->
+
+    <script>
+        function GetMap() {
+            var map = new Microsoft.Maps.Map('#myMap', {});
+
+            map.setView({
+                mapTypeId: Microsoft.Maps.MapTypeId.aerial,
+                center: new Microsoft.Maps.Location(4.9038791, 114.921424),
+                zoom: 20
+            });
+            var center = map.getCenter();
+        }
+    </script>
+</head>
+<body onload="GetMap()">
+    <form method="post">
+        <table border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td style="width: 80px">Name:</td>
+                <td><input type="text" name="Name" /></td>
+            </tr>
+            <tr>
+                <td>Subject:</td>
+                <td><input type="text" name="Subject" /></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" name="Email" /></td>
+            </tr>
+            <tr>
+                <td valign="top">Body:</td>
+                <td><textarea cols="20" rows="10" name="Body"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Send" asp-page-handler="Submit" /></td>
+            </tr>
+        </table>
+        <br />
+        @* <span style="color:green">@Model.Message</span>*@
+    </form>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/4.0.20/tinymce.min.js"></script>
+    <script type="text/javascript">
+        tinymce.init({ selector: 'textarea', width: 300 });
+    </script>
+
+    <div id="myMap"
+         style="position:relative;width:100%;min-width:290px;height:300px;background-color:gray">
+    </div>
+
+    <script>
+        (async () => {
+            let script = document.createElement("script");
+            script.setAttribute("src", 'https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=AjZ_GpnH5_R5FBD-iVIfhM29QOMUi_TDYjyBZ18rAAK8oFahH9cRisZgKn0RoU9U');
+            document.body.appendChild(script);
+        })();
+    </script>
+</body>
+</html>
