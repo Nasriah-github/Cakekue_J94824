@@ -12,6 +12,6 @@
     <WebStackScaffolding_DbContextTypeFullName>Cakekue_J94824.Data.Cakekue_J94824Context</WebStackScaffolding_DbContextTypeFullName>
     <RazorPage_SelectedScaffolderID>RazorPageScaffolder</RazorPage_SelectedScaffolderID>
     <RazorPage_SelectedScaffolderCategoryPath>root/Common/RazorPage</RazorPage_SelectedScaffolderCategoryPath>
-    <NameOfLastUsedPublishProfile>C:\Users\User\source\repos\Cakekue_J94824\Properties\PublishProfiles\2125778.win.studentwebserver.co.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\User\source\repos\Cakekue_J94824\Properties\PublishProfiles\FTPProfile.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

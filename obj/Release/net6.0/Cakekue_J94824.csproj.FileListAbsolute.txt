@@ -260,7 +260,6 @@ C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\staticwebassets\msb
 C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\staticwebassets.pack.json
 C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\staticwebassets.build.json
 C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\staticwebassets.development.json
-C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\scopedcss\Pages\Shared\_Layout - Copy.cshtml.rz.scp.css
 C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\scopedcss\bundle\Cakekue_J94824.styles.css
 C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\scopedcss\projectbundle\Cakekue_J94824.bundle.scp.css
@@ -270,3 +269,8 @@ C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\refint\Cakekue_J948
 C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\Cakekue_J94824.pdb
 C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\Cakekue_J94824.genruntimeconfig.cache
 C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\ref\Cakekue_J94824.dll
+C:\Users\User\source\repos\Cakekue_J94824\bin\Release\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\User\source\repos\Cakekue_J94824\bin\Release\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\User\source\repos\Cakekue_J94824\bin\Release\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\User\source\repos\Cakekue_J94824\bin\Release\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\User\source\repos\Cakekue_J94824\bin\Release\net6.0\Microsoft.Extensions.Identity.Stores.dll

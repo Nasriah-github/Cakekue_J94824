@@ -7,6 +7,9 @@ C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\PubTmp\Out\Cakekue_
 C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\PubTmp\Out\Humanizer.dll
 C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\PubTmp\Out\MessagePack.dll
 C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\PubTmp\Out\MessagePack.Annotations.dll
+C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\PubTmp\Out\Microsoft.Build.dll
@@ -34,6 +37,8 @@ C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\PubTmp\Out\Microsof
 C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\PubTmp\Out\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Identity.Core.dll
+C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\PubTmp\Out\Microsoft.Identity.Client.dll
 C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\User\source\repos\Cakekue_J94824\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Logging.dll

@@ -1,220 +1,166 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Times New Roman';
-    text-align: center;
-    letter-spacing: 1px;
-}
-
-.logo {
-    margin: 15px 50px;
-    height: 60px;
-    float: left;
-    color: rgb(0,0,0);
-    font-size: 35px;
-    letter-spacing: 0px;
-}
-
-/* #Navigation Bar */
+/* Navigation bar styles */
 nav {
     width: 100%;
     height: 70px;
-    background-color: #0005;
-    opacity: 0.9;
+    font-family: 'Times New Roman';
     line-height: 70px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-    nav ul {
-        float: right;
-        margin-right: 30px;
+.logo {
+    margin: 0 50px;
+    height: 60px;
+    float: left;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-family: 'Times New Roman';
+    letter-spacing: 0px;
+}
+
+.menu-icon {
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+
+.menu {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+    .menu li {
+        display: inline-block;
+        margin: 0;
     }
 
-        nav ul li {
-            list-style-type: none;
-            display: inline-block;
+        .menu li:hover {
+            background-color: transparent;
         }
 
-            nav ul li:hover {
-             background-color: #0003;
+        .menu li a {
+            text-decoration: none;
+            color: #444242;
+            font-size: 17px;
+            font-family: 'Times New Roman';
+            padding: 15px 25px;
+        }
+
+            .menu li a:hover {
+                border-bottom: 2px solid #444242;
             }
 
-              nav ul li a {
-               text-decoration: none;
-               color: #fff;
-               font-size: 17px;
-               padding: 25px;
-              }
-
-/* CONTENT */
-/* Index Background */
-    .content {
-     position: absolute;
-     background-color: #E8E8E8;
-     height: 200vh;
-     width: 100%;   
+/* Carousel styles */
+#carouselSlideImages {
+    height: 500px;
 }
 
-    .content .intro {
-     max-width: 100%;
-     display: flex;
-     flex-direction: column;
-}
-
-       .content .intro h2 {
-        font-size: 65px;
-        text-align: left;
-        padding-top: 50px;
-        padding-left: 50px;
-        font-family: 'Times New Roman';
-        margin-bottom: 30px;
-       }
-
-          .content .intro p {
-           position: absolute;
-           top: 210px;
-           font-size: 20px;
-           text-align: left;
-           padding-left: 60px;
-           line-height: 25px;
-           margin-bottom: 20px;
-           font-family: 'Times New Roman';
-          }
-
-/* #Content */
-/* Button */
-
-button {
-    position: absolute;
-    top: 310px;
-    left: 58px;
-    display: flex;
-    background: #ECEBEA;
-    border: 0;
-    font-size: 18px;
-    text-transform: uppercase;
-    border: 5px solid #ddd;
-    padding: 6px 25px;
-    color: #000000;
-    border-radius: 25px;
-}
-
-    button:hover {
-        color: #0005;
+@media only screen and (max-width: 768px) {
+    .logo {
+        margin: 0;
     }
 
-/* #Content Image*/
-/* image-1 */
-.image-container {
-    position: absolute;
-    top: 70px;
-    right: 50px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 50px;
-}
-
-    .image-container img {
-        width: 410px;
-        height: auto;
-        border-radius: 50%;
-        animation: rotate 20s linear infinite;
+    .menu {
+        width: 100%;
+        display: none;
+        margin: 70px 0 0 0;
+        padding: 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
 
-/* #Content */
-/* Animation */
+        .menu li {
+            margin: 0;
+            display: block;
+            border-bottom: 1px solid #444242;
+        }
 
-@keyframes rotate {
-    0% {
-        transform: rotate(0deg);
-    }
+            .menu li a {
+                padding: 15px 25px;
+            }
 
-    100% {
-        transform: rotate(360deg);
+    .menu-icon {
+        display: block;
+        margin: 20px;
+        float: right;
+        font-size: 20px;
     }
 }
 
-/* #Section group*/
-.group {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+/* General styles */
+html {
+    font-size: 14px;
 }
 
-.group .list-items {
-    width: 90%;
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
     position: relative;
-    margin-top: 300px;
+    min-height: 100%;
 }
 
-    .group .list-items h2 {
-        text-align: left;
-        padding-left: 20px;
-        font-size: 25px;
-        font-weight: 600;
-        font-family: 'Times New Roman';
-        margin-bottom: 100px;
+.text-grey {
+    color: #444242;
+}
+
+.nav-link {
+    letter-spacing: 1px;
+    font-family: 'Times New Roman';
+}
+
+#footer {
+    background-color: #444242;
+    font-family: 'Times New Roman';
+}
+
+header {
+    z-index: 100;
+}
+
+.dishCard {
+    height: 300px;
+    font-family: 'Times New Roman';
+}
+
+.row {
+    font-family: 'Times New Roman';
+}
+
+#Menu-list {
+    top: 5rem;
+}
+
+    #Menu-list::-webkit-scrollbar {
+        width: 10px;
     }
 
-.group .list-items .card-list {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
+    #Menu-list::-webkit-scrollbar-track {
+        background-color: #ffffff;
+    }
 
-.group .card-list .card {
-    width: 200px;
-    height: auto;
-    display: block;
-    padding: 10px;
+    #Menu-list::-webkit-scrollbar-thumb {
+        background-color: #444242;
+        border-radius: 10px;
+    }
+
+.Menu-item:hover {
+    background-color: #c2b9b9;
     border-radius: 10px;
-    position: relative;
-    background: #ffff;
-    outline: 2px solid #000000;
 }
 
-.group .card-list .card img {
-    width: 100px;
-    height: auto;
-    bottom: 140px;
-    left: 60px;
-    object-fit: cover;
-    object-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
-    box-shadow: 0 20px 20px #0005;
-    border-radius: 100px;
-}
+    .Menu-item:hover a {
+        color: #000000;
+    }
 
-.group .card-list .card .food-name {
-    padding: 40px 0 10px;
-}
-
-.group .card-list .card .food-name h1 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
+.input {
     font-family: 'Times New Roman';
 }
 
-.group .card .food-desc p {
-   font-size: 13px;
-   text-align: center;
-   font-weight: 500;
-   margin-bottom: 20px;
-   font-family: 'Times New Roman';
+.image-size {
+    width: 200px;
+    height: 200px;
 }
-
-.group .card .price {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.group .card .price span {
-    font-weight: 600;
-    font-family: 'Times New Roman';
-}
-
-
-
 

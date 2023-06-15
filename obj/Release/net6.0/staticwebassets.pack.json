@@ -5,36 +5,76 @@
       "PackagePath": "staticwebassets\\Cakekue_J94824.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Cakekue_J94824\\wwwroot\\Image\\img-1.jpg",
-      "PackagePath": "staticwebassets\\Image\\img-1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\User\\source\\repos\\Cakekue_J94824\\wwwroot\\Image\\img-2.jpg",
-      "PackagePath": "staticwebassets\\Image\\img-2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\User\\source\\repos\\Cakekue_J94824\\wwwroot\\Image\\img-3.jpg",
-      "PackagePath": "staticwebassets\\Image\\img-3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\User\\source\\repos\\Cakekue_J94824\\wwwroot\\Image\\img-4.jpg",
-      "PackagePath": "staticwebassets\\Image\\img-4.jpg"
-    },
-    {
-      "Id": "C:\\Users\\User\\source\\repos\\Cakekue_J94824\\wwwroot\\Image\\img-5.jpg",
-      "PackagePath": "staticwebassets\\Image\\img-5.jpg"
-    },
-    {
-      "Id": "C:\\Users\\User\\source\\repos\\Cakekue_J94824\\wwwroot\\Index.cshtml.cs",
-      "PackagePath": "staticwebassets\\Index.cshtml.cs"
-    },
-    {
       "Id": "C:\\Users\\User\\source\\repos\\Cakekue_J94824\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\Cakekue_J94824\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Cakekue_J94824\\wwwroot\\images\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Cakekue_J94824\\wwwroot\\images\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Cakekue_J94824\\wwwroot\\images\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Cakekue_J94824\\wwwroot\\images\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Cakekue_J94824\\wwwroot\\images\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Cakekue_J94824\\wwwroot\\images\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Cakekue_J94824\\wwwroot\\images\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Cakekue_J94824\\wwwroot\\images\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Cakekue_J94824\\wwwroot\\images\\carousel\\img-6.png",
+      "PackagePath": "staticwebassets\\images\\carousel\\img-6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Cakekue_J94824\\wwwroot\\images\\carousel\\img-7.jpg",
+      "PackagePath": "staticwebassets\\images\\carousel\\img-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Cakekue_J94824\\wwwroot\\images\\carousel\\img-8.jpg",
+      "PackagePath": "staticwebassets\\images\\carousel\\img-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Cakekue_J94824\\wwwroot\\images\\img-1.jpg",
+      "PackagePath": "staticwebassets\\images\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Cakekue_J94824\\wwwroot\\images\\img-2.jpg",
+      "PackagePath": "staticwebassets\\images\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Cakekue_J94824\\wwwroot\\images\\img-3.jpg",
+      "PackagePath": "staticwebassets\\images\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Cakekue_J94824\\wwwroot\\images\\img-4.jpg",
+      "PackagePath": "staticwebassets\\images\\img-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Cakekue_J94824\\wwwroot\\images\\img-5.jpg",
+      "PackagePath": "staticwebassets\\images\\img-5.jpg"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\Cakekue_J94824\\wwwroot\\js\\site.js",

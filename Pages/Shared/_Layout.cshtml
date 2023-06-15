@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,6 +28,10 @@
             <form asp-page="/Account/Logout" method="post">
                     <button type="submit">Logout</button>
             </form>
+            @if (User.IsInRole("Admin"))
+            {
+                <a asp-page="/Admin/Create">Admin</a>
+            }
         </nav>
     </header>
     <div class="container">
@@ -39,10 +43,7 @@
     <footer class="border-top text-black p-3">
          <a href="http://validator.w3.org/check?uri=referer">Validate HTML</a>
          <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
-         @if (User.IsInRole("Admin"))
-        {
-            <a asp-page="/Admin/Create">Admin</a>
-        }
+        
         <div class="container mt-5">
             <div class="row">
                 <div class="col-md-6 col-lg-3 mb-3">
@@ -99,6 +100,6 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js"></script>
-    @RenderSection("Scripts", required: false)
+    @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
