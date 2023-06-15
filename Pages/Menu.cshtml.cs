@@ -7,7 +7,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Cakekue_J94824.Pages
 {
-    [Authorize]
     public class MenuModel : PageModel
     {
 
