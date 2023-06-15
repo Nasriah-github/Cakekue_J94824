@@ -1,6 +1,5 @@
 using Cakekue_J94824.Data;
 using Cakekue_J94824.Models;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
