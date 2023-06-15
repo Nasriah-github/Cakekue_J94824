@@ -31,7 +31,7 @@ builder.Services.AddAuthorization(options =>
 
 builder.Services.AddRazorPages(options =>
 {
-    options.Conventions.AuthorizeFolder("/Menu", "AdminPolicy");
+    options.Conventions.AuthorizeFolder("/Admin", "AdminPolicy");
 });
 
 var app = builder.Build();
