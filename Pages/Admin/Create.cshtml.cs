@@ -11,7 +11,6 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace Cakekue_J94824.Pages.Admin
 {
-    [Authorize(Roles = "Admin")]
     public class CreateModel : PageModel
     {
         private readonly Cakekue_J94824.Data.Cakekue_J94824Context _context;

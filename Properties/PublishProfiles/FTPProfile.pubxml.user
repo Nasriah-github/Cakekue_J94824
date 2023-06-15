@@ -7,6 +7,8 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUceAOt26XEWEz41fZXQCIwAAAAACAAAAAAAQZgAAAAEAACAAAAC94Y9KjI7vJ8IfI4pH5ZB9kFmg551hy1c3Q91423X1hgAAAAAOgAAAAAIAACAAAAA1mnYaZYU1JbBxNdw4uLyOsPxaKAlzH6q3e9Fj7E0pACAAAADCt58yWzSEgOZspwqnxoZgBqALkPi0u/CMR7R02JY4jkAAAACoFNd7q9KKguPugJXPFnWoMoafDhchY7rrObbBrsvzpoedwgiqmictu0PLQdWNkTU9Ns/fw8aL6LDOHr4r/Hbb</EncryptedPassword>
     <_PublishTargetUrl>ftp://tsp-plesk.fse.network</_PublishTargetUrl>
+    <History>True|2023-06-15T01:24:45.2838778Z;</History>
+    <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
     <File Include="appsettings.Development.json">
@@ -16,16 +18,16 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>05/29/2023 13:17:40</publishTime>
     </File>
     <File Include="Cakekue_J94824.deps.json">
-      <publishTime>06/01/2023 23:12:48</publishTime>
+      <publishTime>06/15/2023 09:23:12</publishTime>
     </File>
     <File Include="Cakekue_J94824.dll">
-      <publishTime>06/01/2023 23:12:42</publishTime>
+      <publishTime>06/15/2023 09:22:55</publishTime>
     </File>
     <File Include="Cakekue_J94824.exe">
-      <publishTime>06/01/2023 23:12:42</publishTime>
+      <publishTime>06/15/2023 09:22:55</publishTime>
     </File>
     <File Include="Cakekue_J94824.pdb">
-      <publishTime>06/01/2023 23:12:42</publishTime>
+      <publishTime>06/15/2023 09:22:55</publishTime>
     </File>
     <File Include="Cakekue_J94824.runtimeconfig.json">
       <publishTime>06/01/2023 23:03:28</publishTime>
@@ -688,7 +690,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>10/15/2021 02:38:18</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>06/01/2023 23:12:50</publishTime>
+      <publishTime>06/15/2023 09:23:22</publishTime>
     </File>
     <File Include="wwwroot/Cakekue_J94824.styles.css">
       <publishTime>06/01/2023 23:03:27</publishTime>
