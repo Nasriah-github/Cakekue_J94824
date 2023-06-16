@@ -48,7 +48,7 @@ namespace Cakekue_J94824.Migrations
                     table.PrimaryKey("PK_AspNetUsers", x => x.Id);
                 });
 
-           /* migrationBuilder.CreateTable(
+            migrationBuilder.CreateTable(
                 name: "Product",
                 columns: table => new
                 {
@@ -61,7 +61,7 @@ namespace Cakekue_J94824.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Product", x => x.ID);
-                });*/
+                });
 
             migrationBuilder.CreateTable(
                 name: "AspNetRoleClaims",
